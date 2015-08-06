@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Seven'Blog
 subtitle:
 description:
 author: John Doe
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-yilia-master
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
