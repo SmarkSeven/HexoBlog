@@ -46,3 +46,27 @@ tags: Android
         return result;
     }
    
+**布局文件如下：**
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FED928"
+        android:clipToPadding="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+	</RelativeLayout>
+
+**通过这种方式实现的沉浸式状态栏的主要思想是，用一个FragLayout来包裹界面顶部内容，使FragLayout内容区域延伸到StateBar，然后通过设置FragLayout的paddingTop的值为StateBar的高度，让顶部内容恰好显示在StateBar的下方。**
+
+
+
+
