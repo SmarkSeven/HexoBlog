@@ -35,8 +35,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=false&word=QQ%E5%A4%B4%E5%83%8F&pn=66&spn=0&di=38167070480&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=&ie=utf-8&oe=utf-8&in=3354&cl=2&lm=-1&st=&cs=22915676%2C2012053005&os=2536630694%2C2408785694&adpicid=0&ln=1000&fmq=1378374347070_R&ic=0&s=0&se=&sme=&tab=&face=&ist=&jit=&statnum=head&cg=head&bdtype=0&objurl=http%3A%2F%2Fp3.gexing.com%2FG1%2FM00%2FD8%2F62%2FrBACFFIq8Z3SJkKTAAAjhTw1_5E892_200x200_3.jpg%3Frecache%3D20131108&fromurl=http%3A%2F%2Fwww.gexing.com%2Fqqtouxiang%2F2368381.html&gsm=3c
-share: true
+avatar: http://p3.gexing.com/G1/M00/D8/62/rBACFFIq8Z3SJkKTAAAjhTw1_5E892_200x200_3.jpg?recache=20131108
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
 duoshuo: true
