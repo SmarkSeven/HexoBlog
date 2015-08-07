@@ -1,11 +1,15 @@
 title: Android沉浸式状态栏 
 date: 2015-08-05 10:12:14
-tags: Android
+comments: false
+tags: [Android,随笔]
+categories: Android
+
 ---
    **正常情况下手机状态栏的背景都是黑色的，和应用界面有和明显的色差，这样的视觉体验并不好。**
 
 **非沉浸式状态栏：**
  ![非沉浸式状态栏](http://i.imgur.com/0fYNAK9.png) 
+
 
 **沉浸式状态栏：**
  ![沉浸式状态栏](http://i.imgur.com/e0QBW8v.png)  
