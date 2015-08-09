@@ -1,7 +1,7 @@
 title: 自学Android的学习资料
 date: 2015-08-09 22:12:14
 comments: true
-tags: [Android，学习]
+tags: [Android,学习]
 categories: [学习]
 
 ---

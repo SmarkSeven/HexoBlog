@@ -1,8 +1,8 @@
 title: TortoiseGit(乌龟Git)教程 
 date: 2015-08-09 15:12:14
 comments: true
-tags: [工具，教程]
-categories: [教程，工具]
+tags: [工具,教程]
+categories: [教程,工具]
 
 ---
   
