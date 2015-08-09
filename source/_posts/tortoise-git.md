@@ -1,11 +1,20 @@
-title: TortoiseGit教程 
+title: TortoiseGit(乌龟Git)教程 
 date: 2015-08-09 15:12:14
 comments: true
 tags: [工具，教程]
 categories: [教程,工具]
 
 ---
-  　**公司近期在自己的服务器上部署了自己的gitLab，用于管理公司项目的代码，使用tortoiseGit做版本管理。**
+  
+# 一、安装git for Windows #
+**首先下载git客户端 [http://msysgit.github.io/](http://msysgit.github.io/ "git for Windows") 
+安装过程中，一路"next"就OK了。**
+
+![](http://i.imgur.com/dPHM3ET.png)
+
+**安装完成之后右键如果出现这几个东西，那么git就安装完成了。**
+
+
 
 
 
