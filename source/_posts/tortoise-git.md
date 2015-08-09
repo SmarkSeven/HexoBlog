@@ -2,7 +2,7 @@ title: TortoiseGit(乌龟Git)教程
 date: 2015-08-09 15:12:14
 comments: true
 tags: [工具，教程]
-categories: [教程,工具]
+categories: [教程，工具]
 
 ---
   
@@ -13,6 +13,9 @@ categories: [教程,工具]
 ![](http://i.imgur.com/dPHM3ET.png)
 
 **安装完成之后右键如果出现这几个东西，那么git就安装完成了。**
+
+
+**编辑器发生务之错误，不得已暂停编辑**
 
 
 
