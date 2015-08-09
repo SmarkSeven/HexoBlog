@@ -1,4 +1,3 @@
-
 <div class="copyright" >
   {% set current = date(Date.now(), "YYYY") %}
   &copy; &nbsp; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
@@ -10,7 +9,7 @@
 </div>
 
 <div class="powered-by">
-  {{ __('footer.powered', '<a href="http://hexo.io">Hexo</a>') }}
+  {{ __('footer.powered', '<a >Hexo</a>') }}
 </div>
 
 <div class="theme-info">
