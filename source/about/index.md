@@ -6,5 +6,9 @@ comments: false
 
 
 
-# 努力做神一样的男人 #
 
+
+
+
+
+　　　　![](http://i.imgur.com/agc5iyW.png)
