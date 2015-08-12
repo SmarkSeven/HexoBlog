@@ -75,6 +75,11 @@ social:
   github: https://github.com/SmarkSeven/
 #twitter: https://twitter.com/your-user-name
   weibo: http://weibo.com/2942583627
+  importnew: http://www.importnew.com/
+  androidchina: http://www.androidchina.net/
+  codeceo: http://www.codeceo.com/
+
+
   #douban: http://douban.com/people/your-user-name
   #zhihu: http://www.zhihu.com/people/your-user-name
   # 等等
@@ -84,6 +89,8 @@ links_title: Links
 links:
   MacTalk: http://macshuo.com/
   FlowerFat: http://www.flowerfat.com/
+  csdn1: http://blog.csdn.net/lmj623565791
+
 #站点建立时间
 since: 2015
 
@@ -91,3 +98,4 @@ since: 2015
 duoshuo_shortname : sevenyun
 
 swiftype_key: PFX7spsJ6jwUeiusgARv 
+
