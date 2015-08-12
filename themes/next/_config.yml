@@ -47,9 +47,9 @@ scheme: Mist
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-#sidebar: post
+sidebar: post
 
-sidebar: always
+#sidebar: always
 #sidebar: hide
 
 
@@ -63,7 +63,7 @@ toc_list_number: true
 # Automatically Excerpt
 auto_excerpt:
   enable: true
-  length: 130
+  length: 120
 
 # Use Lato font
 # Note: this option is avialable only when the language is not `zh-Hans`
@@ -104,4 +104,3 @@ duoshuo_share: true
 #百度统计
 baidu_analytics: 8b6d15f2806ad2d977a6663c99291b96
 
-swiftype_key: c7cb614c893de277fc8a
