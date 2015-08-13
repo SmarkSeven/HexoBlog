@@ -5,7 +5,7 @@ tags: [Android,教程]
 categories: [教程,Android]
 
 ---
-![](http://i.imgur.com/pHlNCa1.png) ![](http://i.imgur.com/cWXYTvf.png)
+
 # 概述 #
 虽然Google在Android 3.0推了ActionBar这个控件，视图改善Android中纷乱的界面设计。然而它的体验并不优秀。在最新的V7包Google推出了ToolBar用于取代不够优秀的ActionBar。
 # 使用步骤 #
@@ -139,6 +139,14 @@ setOnmenuItemClickListener,设定菜单各按鈕的动作
 
 需要將之设定在 setSupportActionBar 之后才有作用。
 
+
+最终效果图如下：
+
+![](http://i.imgur.com/G2WXSny.png)
+
+点击时有系统自带的水波纹效果
+
+![](http://i.imgur.com/wvNJcDN.png)
 
 
 
