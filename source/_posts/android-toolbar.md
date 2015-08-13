@@ -5,6 +5,7 @@ tags: [Android,教程]
 categories: [教程,Android]
 
 ---
+![](http://i.imgur.com/pHlNCa1.png) ![](http://i.imgur.com/cWXYTvf.png)
 # 概述 #
 虽然Google在Android 3.0推了ActionBar这个控件，视图改善Android中纷乱的界面设计。然而它的体验并不优秀。在最新的V7包Google推出了ToolBar用于取代不够优秀的ActionBar。
 # 使用步骤 #
@@ -85,6 +86,58 @@ Toolbar 的 background 进行设定
     </android.support.v7.widget.Toolbar>
 
 ## 5.控件 (component) ##
+预设常用的几个元素
+
+setNavigationIcon，即设定 up button 的图标
+
+setLogo，APP 的图标
+
+setTitle，主标题
+
+setSubtitle，副标题
+
+setOnmenuItemClickListener,设定菜单各按鈕的动作
+
+在 MainActivity.java 中的代码：
+
+    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+    // App Logo
+    toolbar.setLogo(R.drawable.ic_launcher);
+    // Title
+    toolbar.setTitle("My Title");
+    // Sub Title
+    toolbar.setSubtitle("Sub title");
+    setSupportActionBar(toolbar);
+    // Navigation Icon 要設定在 setSupoortActionBar 才有作用
+    // 否則會出現 back button
+    toolbar.setNavigationIcon(R.drawable.ab_android);
+
+设置监听器OnMenuItemClickListener：
+
+    private Toolbar.OnMenuItemClickListener onMenuItemClick = new Toolbar.OnMenuItemClickListener() {
+      @Override
+      public boolean onMenuItemClick(MenuItem menuItem) {
+    String msg = "";
+    switch (menuItem.getItemId()) {
+      case R.id.action_edit:
+    msg += "Click edit";
+    break;
+      case R.id.action_share:
+    msg += "Click share";
+    break;
+      case R.id.action_settings:
+    msg += "Click setting";
+    break;
+    }
+     
+    if(!msg.equals("")) {
+      Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
+    }
+    return true;
+      }
+    };
+
+需要將之设定在 setSupportActionBar 之后才有作用。
 
 
 
