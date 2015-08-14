@@ -14,14 +14,16 @@ categories: [Android,MaterialDesign]
 **Snackbar同时具有Dialog和Toast的特征，其实用方式与Toast类似。**
   
     public void click(View view) {
-    Snackbar.make(view, "测试提示?", Snackbar.LENGTH_LONG)
-    .setAction("取消", new View.OnClickListener() {
+    Snackbar.make(view, "CLICK ME?", Snackbar.LENGTH_LONG)
+    .setAction("OK", new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-    Toast.makeText(MainActivity.this, "你真的取消了！",
+    Toast.makeText(MainActivity.this, "擦，你真点！",
     Toast.LENGTH_SHORT).show();
     }
     }).show();
+
+![](http://img.blog.csdn.net/20150711231918653)
 
 # FloatingActionButton #
 **顾名思义：这是一个浮动按钮。在外观上其实就是一个悬浮按钮，更常见的是漂浮在界面上的圆形按钮，简称FAB。FloatingActionButton的使用也很简单，它直接继承ImageView，所以ImageView的所有属性都可以用在FloatingActionButton上。**
@@ -52,7 +54,7 @@ categories: [Android,MaterialDesign]
 # CoordinatorLayout #
 **CoordinatorLayout这个控件的作用是让它的子view更好的去协作，这里我们只是简单的用CoordinatorLayout来包裹一下FloatingActionButton来达到和Snackbar更好协作的效果。修改我们的布局:**
 
-      <android.support.design.widget.CoordinatorLayout
+    <android.support.design.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
@@ -71,7 +73,7 @@ categories: [Android,MaterialDesign]
     app:fabSize="normal"
     app:pressedTranslationZ="10dp"
     app:rippleColor="#FF0000FF" />
-      </android.support.design.widget.CoordinatorLayout>
+    </android.support.design.widget.CoordinatorLayout>
 
 
 
