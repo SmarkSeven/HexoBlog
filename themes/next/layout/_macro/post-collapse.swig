@@ -18,7 +18,7 @@
 
       <div class="post-meta">
         <time class="post-time" datetime="{{ post.date|date('c') }}" itemprop="dateCreated" content="{{ post.date|date('Y-m-d') }}"> {{ date(post.date, 'MM-DD') }} </time>
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=722928&auto=1&height=66"></iframe>
+        
       </div>
 
 
