@@ -55,6 +55,7 @@
                 <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.path }}" itemprop="commentsCount"></span>
               </a>
             </span>
+
           {% elseif config.disqus_shortname %}
             <span class="post-comments-count">
             &nbsp; | &nbsp;
@@ -145,5 +146,5 @@
       {% endif %}
     </footer>
   </article>
-
 {% endmacro %}
+

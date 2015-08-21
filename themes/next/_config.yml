@@ -63,7 +63,7 @@ toc_list_number: true
 # Automatically Excerpt
 auto_excerpt:
   enable: true
-  length: 130
+  length: 120
 
 # Use Lato font
 # Note: this option is avialable only when the language is not `zh-Hans`
@@ -104,5 +104,8 @@ duoshuo_share: true
 #百度统计
 baidu_analytics: 8b6d15f2806ad2d977a6663c99291b96
 
+<<<<<<< HEAD
 swiftype_key: c7cb614c893de277fc8a
 
+=======
+>>>>>>> adeeebbbfdc9963f9c865daabf30a6ed71ca2c86

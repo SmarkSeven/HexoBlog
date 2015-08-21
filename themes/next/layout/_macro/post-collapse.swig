@@ -18,9 +18,12 @@
 
       <div class="post-meta">
         <time class="post-time" datetime="{{ post.date|date('c') }}" itemprop="dateCreated" content="{{ post.date|date('Y-m-d') }}"> {{ date(post.date, 'MM-DD') }} </time>
+        
       </div>
+
 
     </header>
   </article>
+
 
 {% endmacro %}
