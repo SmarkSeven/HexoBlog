@@ -79,7 +79,6 @@ social:
   codeceo: http://www.codeceo.com/
   duobei: http://www.duobei.com/course/
   163: http://study.163.com/
-  course: http://www.yiibai.com/hightlang/
 
 
   #douban: http://douban.com/people/your-user-name
@@ -90,12 +89,12 @@ social:
 links_title: Links
 # links
 links:
-  MacTalk: http://macshuo.com/
   FlowerFat: http://www.flowerfat.com/
   aige: http://blog.csdn.net/aigestudio
   git: http://t.cn/zQ6LFwE
   javaScript: http://t.cn/R2Elz3O
   csdn1: http://blog.csdn.net/lmj623565791
+  course: http://www.yiibai.com/hightlang/
   
 
 
