@@ -1,8 +1,8 @@
 title: android自定义view之创建一个View类
-date: 2015-09-10 16:29:15
+date: 2015-09-26 11：29
 comments: true
-tags: [aar,Android]
-categories: [aar,Android]
+tags: [View,Android]
+categories: [View,Android]
 
 ---
 
